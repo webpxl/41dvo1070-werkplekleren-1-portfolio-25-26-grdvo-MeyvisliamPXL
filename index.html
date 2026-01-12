@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>portfolio</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="#home" class="nav-logo">LM</a>
+        <ul class="nav-menu">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#over" class="nav-link">Over Mij</a></li>
+            <li><a href="#projecten" class="nav-link">Projecten</a></li>
+            <li><a href="#interessant" class="nav-link">Inspiratie</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<header id="home" class="hero">
+    <div class="hero-background"></div>
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1 class="hero-title">
+                <span class="title-line">Hallo, ik ben</span>
+                <span class="title-name">Liam Meyvis</span>
+            </h1>
+            <p>Liam Meyvis</p>
+            <p class="hero-subtitle">Digitale Vormgever | Designer | Creatieve Denker</p>
+            <div class="hero-buttons">
+                <a href="#projecten" class="btn btn-primary">Bekijk Mijn Werk</a>
+                <a href="#contact" class="btn btn-secondary">Neem Contact Op</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-wrapper">
+                <img src="img/Liam.jpeg" alt="Liam Meyvis" class="profile-image">
+                <div class="image-decoration"></div>
+            </div>
+        </div>
+    </div>
+    <div class="scroll-indicator">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+    </div>
+</header>
+
+<!-- Over Mij Section -->
+<section id="over" class="about-section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-number">01</span>
+            <h2 class="section-title">Over Mij</h2>
+        </div>
+
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Wie ben ik?</h3>
+                <p>Mijn naam is Liam Meyvis, een 18-jarige creatieveling uit Helchteren. Ik studeer momenteel Digitale Vormgeving aan het
+                    PXL, waar ik mijn passie voor design verder ontwikkel.</p>
+
+                <div class="info-cards">
+                    <div class="info-card">
+                        <div class="info-icon">📍</div>
+                        <h4>Locatie</h4>
+                        <p>Helchteren, België</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">🎓</div>
+                        <h4>Opleiding</h4>
+                        <p>Digitale Vormgeving - PXL</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">🎨</div>
+                        <h4>Leeftijd</h4>
+                        <p>18 jaar</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-text">
+                <h3>Waarom Digitale Vormgeving?</h3>
+                <p>Ik heb gekozen voor Digitale Vormgeving omdat ik enorm gepassioneerd ben door design. De mogelijkheid om ideeën visueel tot leven te brengen en betekenisvolle ontwerpen te creëren, dat is wat mij motiveert.</p>
+
+                <p>Design is voor mij meer dan alleen het maken van mooie dingen - het gaat om het vertellen van verhalen en het creëren van ervaringen die mensen raken. Ik ben gefascineerd door typografie, kleurtheorie en compositie.</p>
+
+                <div class="skills-list">
+                    <h4>Wat maakt mij een goede designer?</h4>
+                    <ul>
+                        <li><strong>Creatieve visie:</strong> Ik zie mogelijkheden waar anderen beperkingen zien</li>
+                        <li><strong>Oog voor detail:</strong> Perfectie zit in de kleine dingen</li>
+                        <li><strong>Designpassie:</strong> Design is mijn passie, niet alleen mijn studie</li>
+                        <li><strong>Leergierig:</strong> Altijd op zoek naar nieuwe technieken en inspiratie</li>
+                    </ul>
+                </div>
+
+                <p class="honesty-note"><em>Eerlijk zijn? Coderen is niet mijn favoriete bezigheid, maar ik begrijp het belang ervan. Deze portfolio toont dat ik ook buiten mijn comfortzone kan stappen. Met hulp van AI-tools (Claude) heb ik deze website gemaakt.</em></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projecten Section -->
+<section id="projecten" class="projects-section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-number">02</span>
+            <h2 class="section-title">Mijn Projecten</h2>
+        </div>
+
+        <p class="section-intro">Hier zijn enkele van mijn beste ontwerpen die mijn passie voor design weerspiegelen.</p>
+
+        <div class="projects-filter">
+            <button class="filter-btn active" data-filter="all">Alle</button>
+            <button class="filter-btn" data-filter="school">School</button>
+            <button class="filter-btn" data-filter="personal">Persoonlijk</button>
+        </div>
+
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <article class="project-card" data-category="school">
+                <div class="project-image">
+                    <img src="img/bartsimpson.jpeg" alt="Bart Simpson Design" class="project-img">
+                    <div class="project-overlay">
+                        <span class="project-tag">School</span>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Character Design: Bart Simpson</h3>
+                    <p class="project-course">Vak: Grafische Vormgeving - Vectorillustraties</p>
+                    <p class="project-description">Voor dit project heb ik een iconische cartoon character gerecreëerd in minimalistische stijl. Het doel was om de essentie te vangen met simpele vormen en felle kleuren. Ik werkte met vectoren voor een schaalbaar en clean design.</p>
+                    <div class="project-details">
+                        <span class="detail-item">📅 2024</span>
+                        <span class="detail-item">🎨 Vector Design</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="project-card" data-category="personal">
+                <div class="project-image">
+                    <img src="img/naruto.jpeg" alt="Naruto Design" class="project-img">
+                    <div class="project-overlay">
+                        <span class="project-tag">Persoonlijk</span>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Anime Fan Art: Naruto</h3>
+                    <p class="project-course">Persoonlijk Project - Character Illustration</p>
+                    <p class="project-description">Als anime fan maakte ik deze Naruto illustratie in mijn eigen grafische stijl. Dit liet me experimenteren met anime aesthetics en flat design. De gele achtergrond weerspiegelt de energie van het personage.</p>
+                    <div class="project-details">
+                        <span class="detail-item">📅 2024</span>
+                        <span class="detail-item">🎨 Digital Art</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="project-card" data-category="personal">
+                <div class="project-image">
+                    <img src="img/pikachu.jpeg" alt="Pikachu Design" class="project-img">
+                    <div class="project-overlay">
+                        <span class="project-tag">Persoonlijk</span>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Pokemon Character: Pikachu</h3>
+                    <p class="project-course">Persoonlijk Project - Pop Culture Design</p>
+                    <p class="project-description">Een van mijn favoriete projecten waar ik Pikachu tekende in speelse, minimalistische stijl. Ik wilde de schattigheid behouden met eenvoudige vormen en heldere kleuren. De rode pet voegt een leuke touch toe.</p>
+                    <div class="project-details">
+                        <span class="detail-item">📅 2024</span>
+                        <span class="detail-item">🎨 Character Design</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 4 -->
+            <article class="project-card" data-category="school">
+                <div class="project-image">
+                    <img src="img/henrydanger.jpeg" alt="Henry Danger Poster" class="project-img">
+                    <div class="project-overlay">
+                        <span class="project-tag">School</span>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Superhero Poster Design</h3>
+                    <p class="project-course">Vak: Grafische Vormgeving - Poster Design</p>
+                    <p class="project-description">Voor dit schoolproject ontwierp ik een dynamische poster geïnspireerd door superhelden. De uitdaging was een energieke uitstraling met sterk kleurcontrast tussen rood en blauw. Dit leerde me over kleurtheorie en compositie.</p>
+                    <div class="project-details">
+                        <span class="detail-item">📅 2024</span>
+                        <span class="detail-item">🎨 Poster Design</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 5 -->
+            <article class="project-card" data-category="personal">
+                <div class="project-image">
+                    <img src="img/scottmcall.jpeg" alt="Scott McCall Portrait" class="project-img">
+                    <div class="project-overlay">
+                        <span class="project-tag">Persoonlijk</span>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Teen Wolf Character Portrait</h3>
+                    <p class="project-course">Persoonlijk Project - Portrait Illustration</p>
+                    <p class="project-description">Een minimalistische character portrait met donkere, dramatische sfeer. Dit project focust op gezichtsdetails en expressie, met de rode ogen als mysterieus element. Ik werkte met een beperkt kleurenpalet voor een stylistische illustratie.</p>
+                    <div class="project-details">
+                        <span class="detail-item">📅 2024</span>
+                        <span class="detail-item">🎨 Portrait Art</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 6 -->
+            <article class="project-card" data-category="personal">
+                <div class="project-image">
+                    <img src="img/groot.jpeg" alt="Baby Groot" class="project-img">
+                    <div class="project-overlay">
+                        <span class="project-tag">Persoonlijk</span>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Baby Groot Character Design</h3>
+                    <p class="project-course">Persoonlijk Project - Marvel Fan Art</p>
+                    <p class="project-description">Een schattige illustratie van Baby Groot in zijn pot. Dit combineert mijn liefde voor Marvel met kawaii-stijl. Ik werkte met warme bruintinten en minimalistische aanpak. Dit toont mijn veelzijdigheid in verschillende stijlen.</p>
+                    <div class="project-details">
+                        <span class="detail-item">📅 2024</span>
+                        <span class="detail-item">🎨 Character Design</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- Inspiratie Section - Speciale Sectie -->
+<section id="interessant" class="special-section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-number">03</span>
+            <h2 class="section-title">Mijn Design Inspiratie</h2>
+        </div>
+
+        <div class="special-content">
+            <h3>Waar haal ik mijn creativiteit?</h3>
+            <p>Als designer word ik enorm geïnspireerd door pop cultuur - van anime en cartoons tot films en series. Deze werelden vol creativiteit vormen de basis van mijn ontwerpdenken.</p>
+
+            <div class="inspiration-grid">
+                <div class="inspiration-card">
+                    <img src="img/appel.jpeg" alt="Design Elements" class="inspiration-img">
+                    <h4>Eenvoud & Impact</h4>
+                    <p>Simpele vormen kunnen krachtige statements maken. Deze appel toont hoe minimalisme en heldere kleuren samen een memorabel design creëren.</p>
+                </div>
+
+                <div class="inspiration-card">
+                    <img src="img/gtr.jpeg" alt="GTR Design" class="inspiration-img">
+                    <h4>Dynamiek & Energie</h4>
+                    <p>Van automotive design tot superhelden posters - ik hou van designs die beweging uitstralen. Felle kleuren en scherpe lijnen creëren visuele spanning.</p>
+                </div>
+            </div>
+
+            <div class="philosophy">
+                <h4>Mijn Design Filosofie</h4>
+                <p>Ik geloof dat de beste designs een verhaal vertellen. Of het nu een character illustration is of een simpele vorm - elk ontwerp moet emotie overbrengen. Mijn werk weerspiegelt mijn passie voor pop cultuur en streven naar visuele perfectie.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-number">04</span>
+            <h2 class="section-title">Contact</h2>
+        </div>
+
+        <div class="contact-content">
+            <div class="contact-text">
+                <h3>Laten we samenwerken!</h3>
+                <p>Heb je een project of wil je praten over design? Ik hoor graag van je!</p>
+
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <div>
+                            <h4>Email</h4>
+                            <p>liam.meyvis@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <div>
+                            <h4>Locatie</h4>
+                            <p>Helchteren, België</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Naam" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" placeholder="Bericht" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Verstuur</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Liam Meyvis</h3>
+                <p>Digitale Vormgever met passie voor design</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#over">Over Mij</a></li>
+                    <li><a href="#projecten">Projecten</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="privacy.txt">Privacy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Info</h4>
+                <p>HTML, CSS & JavaScript</p>
+                <p>AI Tool: Claude</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Liam Meyvis</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
