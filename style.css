@@ -1037,4 +1037,37 @@ section {
     }
 }
 
+/* ========================================
+   PORTFOLIO REFLECTIE PAGE
+   ======================================== */
+
+.hero-title {
+    margin-bottom: 20px;
+}
+/* ========================================
+   4 DOELEN – KLEUREN MATCH HERO
+   ======================================== */
+
+/* Maak de bovenste sectie donker */
+body {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: #e5e7eb;
+}
+
+/* Titel */
+body > h1 {
+    color: #f9fafb;
+}
+
+/* Doelen box */
+body > p {
+    background: rgba(255, 255, 255, 0.05);
+    color: #e5e7eb;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Nummering extra zichtbaar */
+body > p {
+    font-weight: 500;
+}
 
